@@ -16,8 +16,8 @@ html{
         height: 80px;
         
     }
-    .video-logo{
-        width: 60px;
+    .logo{
+        width: 90px;
     }
     nav{
         display: flex;
@@ -142,25 +142,9 @@ img{
 }
 
 .icon-lp{
-    text-align: center;
-    margin-top: -80px;
+    visibility: hidden;
 }
 
-.lp{
-    color: black;
-    margin: 7px;
-    font-size: 25px;
-    transform: scale(1);
-    transition: all .5s;
-}
-.lp:hover{
-    color: black;
-    transform: scale(1.1);
-    transition: all .3s;
-}
-.lp:visited{
-    color: black;
-}
 
 section>div>div>a>.visible{
     border-radius: 0;
@@ -169,7 +153,7 @@ section>div>div>a>.visible{
     width: 160px;
     height: 50px;
     margin-left: 100px;
-    margin-top: 10px;
+    margin-top: -50px;
     color: white;
     transform: scale(1);
     transition: all .5s;
@@ -391,9 +375,9 @@ footer{
     color: white;
 }
 #video-footer{
-    width: 15%;
+    width: 20%;
     display: block;
-    margin-left: 43%;
+    margin-left: 39%;
     
 }
 #icons{
