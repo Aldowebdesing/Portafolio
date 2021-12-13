@@ -10,7 +10,7 @@ html{
 }
 /*********************** MOBILE *****************************************/
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 999px) {
  /* MENÚ */ 
     header{
         height: 80px;
@@ -484,7 +484,7 @@ textarea{
 /* MENÚ LAPTOP */
 /* MENÚ */
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
     
 
 nav{
@@ -496,7 +496,7 @@ nav{
     align-items: center;
 }
 
-.video-logo{
+.logo{
     width: 90px;
 }
 .icon-nav{
